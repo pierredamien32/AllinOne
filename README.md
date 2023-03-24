@@ -28,5 +28,5 @@ si tout est ok compiler avec les commandes suivant:
   
 Faire automatiquement git add nom_du_fichier
 Faire convenablement des git commits -m "preciser ce que vous aviez faire"
-A la fin de vos travaux, faire un git push -u origin votre_prenom (nom de votre branch).
+A la fin de vos travaux, faire un git push -u origin2 votre_prenom (nom de votre branch).
 Bon courage et bon travail à vous !!!!
