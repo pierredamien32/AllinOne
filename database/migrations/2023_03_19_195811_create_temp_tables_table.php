@@ -29,7 +29,7 @@ class CreateTempTablesTable extends Migration
             $table->string('tel');
             $table->string('fixe')->nullable();
             $table->timestampsTz();
-        });
+        }); 
     }
 
     /**
