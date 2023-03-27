@@ -31,18 +31,21 @@
                     <label class="font-sans not-italic font-bold text-[17px] leading-[21px] text-[#A49D9D]" for="contact">Contact <span class="text-[#FF9106]">*</span></label>
                     <input class="w-[299px] h-[34px] border-solid border-2 border-[#BAB8B8] rounded-10 " type="number" name="contact" id="">
                 </div>
-                <div class="relative top-24 left-10 flex flex-col gap-3 ">
+                <div class="relative top-24 left-10 flex flex-col ">
                     <label class="font-sans not-italic font-bold text-[17px] leading-[21px] text-[#A49D9D]" for="password">Mot de passe <span class="text-[#FF9106]">*</span></label>
-                    <input class="w-[299px] h-[34px] border-solid border-2 border-[#BAB8B8] rounded-10 " type="password" name="password" id="password">
-                    <label class="relative bottom-[40px] left-[270px]" for=""><i class="fas fa-eye-slash" id="togglePassword"></i></label>
+                    <div class="flex">
+                        <input class="w-[299px] h-[34px] border-solid border-2 border-[#BAB8B8] rounded-10 " type="password" name="password" id="password">
+                        <label class="relative right-8 top-1" for=""><i class="fas fa-eye-slash" id="togglePassword"></i></label>
+                    </div>
                 </div>
-                <div class="relative top-28 left-10 flex flex-col gap-3 ">
+                <div class="relative top-28 left-10 flex flex-col">
                     <label class="font-sans not-italic font-bold text-[17px] leading-[21px] text-[#A49D9D]" for="password">Confirmer mot de passe <span class="text-[#FF9106]">*</span></label>
-                    <input class="w-[299px] h-[34px] border-solid border-2 border-[#BAB8B8] rounded-10 " type="password" name="confir_password" id="password">
+                    <div class="flex ">
+                        <input class="w-[299px] h-[34px] border-solid border-2 border-[#BAB8B8] rounded-10 " type="password" name="confir_password" id="password">
+                        <label class="relative right-8 top-1" for=""><i class="fas fa-eye-slash" id="togglePassword"></i></label>
+                    </div>
                 </div>
-                <!-- <label class="relative bottom-[40px] left-[270px]" for=""><i class="fas fa-eye-slash" id="togglePassword"></i></label> -->
-
-                <div class="flex gap-4 relative top-36 left-10">
+                <div class="flex gap-4 relative top-32 left-10">
                     <input class="w-[14px] h-[16px] bg-white border-solid border-2 border-[#BAB8B8]" type="checkbox" name="" value="true" id="">
                     <p class="font-sans not-italic font-semibold text-[15px] leading-[18px] text-[#A49D9D] w-[265px]">
                         En continuant, vous acceptez les 
@@ -50,10 +53,10 @@
                     </p>
                 </div>
                 <div class="relative top-2">
-                    <button class="relative top-[150px] left-[130px] px-7 py-1 font-sans not-italic font-extrabold text-[20px] leading-[24px] text-white border-solid border-2 bg-[#FF9106] rounded-40" type="submit">S'inscrire</button>
+                    <button class="relative top-[140px] left-[130px] px-8 py-2 font-sans not-italic font-extrabold text-[20px] leading-[24px] text-white border-solid border-2 bg-[#FF9106] rounded-40" type="submit">S'inscrire</button>
                 </div>
             </form>
-            <div class="relative top-[178px] font-sans not-italic font-bold text-[18px] leading-[22px] flex justify-center items-center">
+            <div class="relative top-[170px] font-sans not-italic font-bold text-[18px] leading-[22px] flex justify-center items-center">
                 <p class="text-[#BAB8B8]">Vous disposez déjà d'un compte?</p>
                 <a class="text-[#2F80ED]" href="{{ url('/connexion') }}">Se connecter</a>
             </div>
