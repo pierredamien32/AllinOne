@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.mon-image-en-fond{
+    background-image: url("../../public/images/image de la page d'accueil.png");
+}
+
+.image-fond-form{
+    background-image: url("../../public/images/image de fond.png");
+}
+@layer base {
+    .fa-xs { font-size: .75em; }
+    .fa-sm { font-size: .875em; }
+    .fa-lg { font-size: 1.33333em; }
+    .fa-2x { font-size: 2em; }
+    .fa-3x { font-size: 3em; }
+    .fa-4x { font-size: 4em; }
+    .fa-5x { font-size: 5em; }
+  }
+
