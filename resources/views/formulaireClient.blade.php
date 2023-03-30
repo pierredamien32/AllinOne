@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     @vite('resources/css/app.css')
     @vite('resources/js/script.js')
-    <title>Connexion</title>
+    <title>Compte Client</title>
 </head>
 <body class="image-fond-form bg-cover bg-no-repeat h-full w-full bg-fixed">
     <div class="flex flex-col justify-center items-center h-[100vh] ">

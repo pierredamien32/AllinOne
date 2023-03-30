@@ -20,6 +20,7 @@ module.exports = {
       '30': '30px',
       '20': '20px',
       '10': '10px',
+      '5': '5px',
     },
     extend: {
       backgroundImage: {

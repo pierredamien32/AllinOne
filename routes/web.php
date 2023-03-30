@@ -25,3 +25,6 @@ Route::get('/connexion', function () {
 Route::get('/formulaireClient', function () {
     return view('formulaireClient');
 });
+Route::get('/formulaireEntreprise', function(){
+    return view('formulaireEntreprise');
+});

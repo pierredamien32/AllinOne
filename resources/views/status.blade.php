@@ -21,8 +21,8 @@
                     </a>
                     <p class="w-[73px] h-[30px] relative left-[25px] font-sans not-italic font-bold text-[25px] leading-[30px]">Client</p>
                 </div>
-                <div >
-                    <a href="#">
+                <div>
+                    <a href="{{ url('/formulaireEntreprise') }}">
                         <div class=" w-[127px] h-[120px] left-[706px] top-[405px] bg-white border-solid border-[5px] border-[#FF8F01] rounded-20">
                             <img src="{{ asset('images/status/Rectangle 6.png') }}" class="relative left-4 top-4" alt=""/>
                         </div>
