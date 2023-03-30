@@ -23,7 +23,7 @@ class ClientController extends Controller
     }
     public function connexion()
     {
-        return view('connexion');
+        return view('connexion'); 
     }
     public function status()
     {
