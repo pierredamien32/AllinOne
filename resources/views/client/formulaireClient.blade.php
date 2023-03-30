@@ -14,7 +14,10 @@
         <div class="w-[462px] h-[1800px] py-48 bg-white  left-1/2 translate-x-(-462/2) border-solid border-[5px] border-[#D9D9D9] rounded-30 shadow-lg hover:shadow-xl">
             <img src="{{ asset('images/Logo AllinOne.png') }}" alt="" class=" w-[204px] h-[89px] relative top-2 left-[120px]">
             <p class="relative top-[20px] font-sans not-italic font-bold text-[25px] leading-[30px] text-center text-[#BAB8B8]">Créer un compte</p>
-            <form action="" method="post" >
+            <form action="{{ route('addClient') }}" method="post" >
+                @csrf
+                <input  type="hidden" name="role_id" value="5" id="">
+
                 <div class="relative top-12 left-10 flex flex-col gap-3 ">
                     <label class="font-sans not-italic font-bold text-[17px] leading-[21px] text-[#A49D9D]" for="nom">Nom <span class="text-[#FF9106]">*</span></label>
                     <input class="w-[299px] h-[34px] border-solid border-2 border-[#BAB8B8] rounded-10 " type="text" name="nom" id="">
@@ -29,7 +32,7 @@
                 </div>
                 <div class="relative top-20 left-10 flex flex-col gap-3 ">
                     <label class="font-sans not-italic font-bold text-[17px] leading-[21px] text-[#A49D9D]" for="contact">Contact <span class="text-[#FF9106]">*</span></label>
-                    <input class="w-[299px] h-[34px] border-solid border-2 border-[#BAB8B8] rounded-10 " type="number" name="contact" id="">
+                    <input class="w-[299px] h-[34px] border-solid border-2 border-[#BAB8B8] rounded-10 " type="number" name="telephone" id="">
                 </div>
                 <div class="relative top-24 left-10 flex flex-col gap-3 ">
                     <label class="font-sans not-italic font-bold text-[17px] leading-[21px] text-[#A49D9D]" for="password">Mot de passe <span class="text-[#FF9106]">*</span></label>
@@ -45,8 +48,8 @@
                 <div class="flex gap-4 relative top-36 left-10">
                     <input class="w-[14px] h-[16px] bg-white border-solid border-2 border-[#BAB8B8]" type="checkbox" name="" value="true" id="">
                     <p class="font-sans not-italic font-semibold text-[15px] leading-[18px] text-[#A49D9D] w-[265px]">
-                        En continuant, vous acceptez les 
-                        <span class="text-[#2F80ED]">Conditions d’utilisation de All in One</span> 
+                        En continuant, vous acceptez les
+                        <span class="text-[#2F80ED]">Conditions d’utilisation de All in One</span>
                     </p>
                 </div>
                 <div class="relative top-2">
@@ -55,7 +58,7 @@
             </form>
             <div class="relative top-[178px] font-sans not-italic font-bold text-[18px] leading-[22px] flex justify-center items-center">
                 <p class="text-[#BAB8B8]">Vous disposez déjà d'un compte?</p>
-                <a class="text-[#2F80ED]" href="{{ url('/connexion') }}">Se connecter</a>
+                <a class="text-[#2F80ED]" href="{{ route('connexion') }}">Se connecter</a>
             </div>
         </div>
     </div>

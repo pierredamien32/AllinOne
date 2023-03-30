@@ -171,7 +171,7 @@
         </div>
       </section>
       <!-- fin de la section Evènement tendances -->
-     
+
       <!-- section Evènement gratuit -->
       <section class="mt-8">
         <div class="flex items-center gap-[40rem]">
@@ -267,4 +267,4 @@
     <!-- fin du footer -->
 
 </body>
-</html> 
+</html>

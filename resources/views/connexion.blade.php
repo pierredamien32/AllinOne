@@ -14,7 +14,8 @@
         <div class="w-[462px] h-[679px] bg-white top-[76px] left-1/2 translate-x-(-462/2) border-solid border-[5px] border-[#D9D9D9] rounded-30 shadow-lg hover:shadow-xl">
             <img src="{{ asset('images/Logo AllinOne.png') }}" alt="" class=" w-[204px] h-[89px] relative top-10 left-[120px]">
             <p class="relative top-[60px] font-sans not-italic font-bold text-[25px] leading-[30px] text-center text-[#BAB8B8]">Se connecter sur All in One </p>
-            <form action="" method="post">
+            <form action="{{route('login') }}" method="post">
+                @csrf
                 <div class="relative top-24 left-10 flex flex-col gap-3 ">
                     <label class="font-sans not-italic font-semibold text-[20px] leading-[18px] text-[#A49D9D]" for="email">Adresse e-mail</label>
                     <input class="w-[360px] h-[55px] border-solid border-2 border-[#BAB8B8] rounded-10 " type="email" name="email" id="">
@@ -31,7 +32,7 @@
             </form>
             <div class="relative top-[210px] font-sans not-italic font-bold text-[18px] leading-[22px] flex justify-center items-center">
                 <p class="text-[#BAB8B8]">Vous n'avez pas de compte?</p>
-                <a class="text-[#2F80ED]" href="{{ url('/status') }}">S'inscrire</a>
+                <a class="text-[#2F80ED]" href="{{ route('status') }}">S'inscrire</a>
             </div>
         </div>
     </div>

@@ -20,7 +20,7 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->foreignId('role_id')->constrained()->onDelete('cascade');
             $table->rememberToken();
-            $table->unsignedBigInteger('identifiant'); 
+            $table->unsignedBigInteger('identifiant');
             $table->timestampsTz();
         });
     }

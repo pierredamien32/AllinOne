@@ -11,10 +11,10 @@
     <div class="flex flex-col justify-center items-center h-[100vh] ">
         <div class="w-[462px] h-[679px] bg-white top-[76px] left-1/2 translate-x-(-462/2) border-solid border-[5px] border-[#D9D9D9] rounded-30 shadow-lg hover:shadow-xl">
             <img src="{{ asset('images/Logo AllinOne.png') }}" alt="" class=" w-[204px] h-[89px] relative top-16 left-28">
-            <p class="relative top-36 font-sans not-italic font-semibold text-[30px] leading-[42px] text-center">Quel est votre status ?</p>
+            <p class="relative top-36 font-sans not-italic font-semibold text-[30px] leading-[42px] text-center">Quel est votre statut?</p>
             <div class="flex justify-center items-center mt-[50%] gap-20">
                 <div>
-                    <a href="{{ url('/formulaireClient') }}">
+                    <a href="{{ route('formulaireClient') }}">
                         <div class=" w-[127px] h-[120px] left-[525px] top-[405px] bg-white border-solid border-[5px] border-[#FF8F01] rounded-20">
                             <img src="{{ asset('images/status/Rectangle 5.png') }}" class="relative left-4 top-4" alt=""/>
                         </div>

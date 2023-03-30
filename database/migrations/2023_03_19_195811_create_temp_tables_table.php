@@ -28,6 +28,7 @@ class CreateTempTablesTable extends Migration
             $table->string('role_id');
             $table->string('tel');
             $table->string('fixe')->nullable();
+            $table->string('code');
             $table->timestampsTz();
         });
     }
