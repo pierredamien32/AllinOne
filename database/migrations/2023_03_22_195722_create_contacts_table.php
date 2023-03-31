@@ -18,6 +18,7 @@ class CreateContactsTable extends Migration
             $table->foreignId('entreprise_id')->constrained()->onDelete('cascade');
             $table->timestampsTz();
         });
+
     }
 
     /**
