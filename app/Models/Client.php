@@ -15,3 +15,4 @@ class Client extends Model
         return $this->hasOne(User::class);
     }
 }
+ 
