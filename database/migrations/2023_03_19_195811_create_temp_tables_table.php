@@ -30,6 +30,7 @@ class CreateTempTablesTable extends Migration
             $table->string('fixe')->nullable();
             $table->string('code');
             $table->timestampsTz();
+
         });
     }
 
