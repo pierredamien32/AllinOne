@@ -14,6 +14,6 @@ class Contact extends Model
     }
     use HasFactory;
     protected $fillable = ['tel',
-    'entreprise_id',
+    'entreprise_id'
 ];
 }
