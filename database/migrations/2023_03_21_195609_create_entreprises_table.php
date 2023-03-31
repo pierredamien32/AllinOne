@@ -25,6 +25,7 @@ class CreateEntreprisesTable extends Migration
             $table->string('pays');
             $table->string('adresse');
             $table->timestampsTz();
+
         });
     }
 
