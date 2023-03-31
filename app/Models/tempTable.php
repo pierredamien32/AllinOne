@@ -22,6 +22,6 @@ class tempTable extends Model
     'tel',
     'fixe',
     'description',
-    'role'
+    'role',
 ];
 }
